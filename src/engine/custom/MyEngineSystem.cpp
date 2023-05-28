@@ -2,10 +2,7 @@
 #include <iostream>
 #include <cmath> //sin, cos
 #include <algorithm> //use for std::min_element and std::max_element
-std::ostream& operator<<(std::ostream& os, const Vector2f& vec) {
-	os << "(" << vec.x << ", " << vec.y << ")";
-	return os;
-}
+
 
 
 

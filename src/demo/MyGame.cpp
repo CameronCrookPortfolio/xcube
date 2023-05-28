@@ -69,11 +69,9 @@ void MyGame::update() {
 		ballVelocity = -ballVelocity;
 		if (paddleCentre.x < SATbox1.x) //to the left of other box
 		{
-			//ballVelocityX = 1;
 			ballVelocityX += 2;
 		}
 		else {
-			//ballVelocityX = -1;
 			ballVelocityX -= 2;
 		}
 		
